@@ -1,23 +1,30 @@
-function multiply(num-1,num-2){
+function multiply( num1,num2){
 
-    let c=num-1*num-2
+
+    return num1*num2;
 }
-multiply(31,2);
+console.log (multiply(31,2));
 
-function random()
-[
-    let y=Math.floor(Math.random()*10) +1;
-]
-random();
-
-function mod_(x,y){
-    let b=x%y;
+function random(){
+    let result= (Math.floor(Math.random()*10) +1);
+    Number.isInteger(result);
 
 }
-mod_(9,5);
+
+    
+console.log (random());
+
+
+function mod(num3 ,num4){
+   
+    return num3 % num4;
+
+}
+console.log (mod(9 , 4));
 
 function max(){
-    let v=[3,4,6,8,14,7,20];
-    let m=Math.max(v);
+    const number = new Set([5,9,20]);
+
+   return Math.max(number);
 }
-max();
+console.log(max());

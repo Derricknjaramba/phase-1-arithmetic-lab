@@ -1,30 +1,21 @@
-function multiply( num1,num2){
+const num1=31;
+const num2=2;
+const multiply=num1*num2;
+console.log(multiply);
+
+  const random=Math.floor(Math.random()*10)
+  console.log(random+0);
+
+  const num3=9;
+  const num4=5;
+  const mod=num3%num4;
+  console.log(mod);
+g
+  let  max =Math.max(2,4,6,8,20);
+  console.log(max);
+     
+  
+ 
 
 
-    return num1*num2;
-}
-console.log (multiply(31,2));
 
-function random(){
-    let result= (Math.floor(Math.random()*10) +1);
-    Number.isInteger(result);
-
-}
-
-    
-console.log (random());
-
-
-function mod(num3 ,num4){
-   
-    return num3 % num4;
-
-}
-console.log (mod(9 , 4));
-
-function max(){
-    const number = new Set([5,9,20]);
-
-   return Math.max(number);
-}
-console.log(max());

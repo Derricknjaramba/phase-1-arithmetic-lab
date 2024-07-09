@@ -10,8 +10,8 @@ console.log(multiply);
   const num4=5;
   const mod=num3%num4;
   console.log(mod);
-g
-  let  max =Math.max(2,4,6,8,20);
+
+  const  max =Math.max(2,4,6,7,8,20);
   console.log(max);
      
   
